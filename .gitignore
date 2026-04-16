@@ -8,6 +8,10 @@ venv/
 # Configurations
 config.toml
 
+# ENVs
+.env
+.env.local
+
 # IDEs & Code Editors
 .project
 .idea/
