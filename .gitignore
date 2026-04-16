@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+
+# Virtual Environments
+.venv/
+venv/
+
+# Configurations
+config.toml
+
+# IDEs & Code Editors
+.project
+.idea/
+*.tmproj
+.vscode/
