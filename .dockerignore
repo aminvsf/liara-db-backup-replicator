@@ -1,0 +1,33 @@
+# Git
+.gitignore
+
+# GitLab
+.gitlab-ci.yml
+
+# Python
+__pycache__/
+.python-version
+
+# Virtual Environments
+.venv/
+venv/
+
+# Configurations
+config.toml
+config.example.toml
+
+# ENVs
+.env
+.env.local
+
+# IDEs & Code Editors
+.project
+.idea/
+*.tmproj
+.vscode/
+
+# PIP
+*requirements.in
+dev-requirements.txt
+compile-requirements.sh
+install-requirements.sh
