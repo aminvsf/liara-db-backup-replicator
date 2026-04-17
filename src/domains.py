@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.liara.api import liara_api
+from liara.api import liara_api
 
 
 @dataclass(frozen=True)
@@ -24,7 +24,7 @@ class Backup:
 
     @classmethod
     def from_s3_obj(cls, database, prefix, obj):
-        return cls(database=database, name=obj["Key"][len(prefix) :].rstrip(".enc"))
+        return cls(database=database, name=obj["Key"][len(prefix):].rstrip(".enc"))
 
     def get_download_url(self):
         return liara_api.fetch(

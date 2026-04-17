@@ -6,7 +6,7 @@ from typing import List, Optional
 
 from pydantic import BaseModel, HttpUrl, ValidationError, model_validator
 
-from src.utilities.logger import logger
+from utilities.logger import logger
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

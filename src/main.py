@@ -1,10 +1,10 @@
 import sys
 
-from src.config import config
-from src.liara.exceptions import LiaraAPIError
-from src.respositories import DatabaseRepository
-from src.services import Replicator
-from src.utilities.logger import logger
+from config import config
+from liara.exceptions import LiaraAPIError
+from respositories import DatabaseRepository
+from services import Replicator
+from utilities.logger import logger
 
 
 def main():

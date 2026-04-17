@@ -1,5 +1,5 @@
-from src.domains import Database
-from src.liara.api import liara_api as default_liara_api
+from domains import Database
+from liara.api import liara_api as default_liara_api
 
 
 class DatabaseRepository:

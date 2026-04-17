@@ -5,11 +5,11 @@ import requests
 from botocore.exceptions import ClientError
 from requests import RequestException
 
-from src.config import config
-from src.domains import Backup
-from src.liara.exceptions import LiaraAPIError
-from src.utilities.encryption import EncryptedFileObj
-from src.utilities.logger import logger
+from config import config
+from domains import Backup
+from liara.exceptions import LiaraAPIError
+from utilities.encryption import EncryptedFileObj
+from utilities.logger import logger
 
 
 class S3Storage:
