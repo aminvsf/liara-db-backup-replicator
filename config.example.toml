@@ -9,7 +9,7 @@ api_token = "your_liara_api_token_here"
 # [Optional] The Team ID, if you are accessing resources within a specific team account.
 # team_id = "your_team_id_here"
 
-# [Optional] Overrides the default Liara API endpoint URL. Defaults to "https://api.liara.ir".
+# [Optional] Overrides the default Liara API endpoint URL. Defaults to "https://api.liara.ir/v1".
 # api_url = ""
 
 # [Optional] A list of specific database names to target for replication.
