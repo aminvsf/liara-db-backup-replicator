@@ -142,6 +142,8 @@ class S3Storage:
             )
 
     def sync_backups(self, backups):
+        logger.info("Syncing backups with '%s'...", self.bucket.title)
+
         try:
             existing_backups = self._get_existing_backups()
         except ClientError as exc:
