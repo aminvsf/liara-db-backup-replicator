@@ -3,8 +3,8 @@ from json import JSONDecodeError
 import requests
 from requests import RequestException
 
-from src.config import config
-from src.liara.exceptions import LiaraAPIError
+from config import config
+from liara.exceptions import LiaraAPIError
 
 
 class LiaraAPI:
