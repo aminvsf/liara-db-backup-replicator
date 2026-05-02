@@ -4,7 +4,6 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes dev-requirements.in
 #
---index-url https://repo.hmirror.ir/python/simple
 
 black==26.3.1 \
     --hash=sha256:0126ae5b7c09957da2bdbd91a9ba1207453feada9e9fe51992848658c6c8e01c \
