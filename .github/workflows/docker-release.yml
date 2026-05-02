@@ -35,7 +35,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ vars.IMAGE_NAME }}:${{ steps.get_tag.outputs.RELEASE_TAG }}
-            ghcr.io/${{ vars.IMAGE_NAME }}:latest
+            ghcr.io/${{ github.repository_owner }}/${{ vars.IMAGE_NAME }}:${{ steps.get_tag.outputs.RELEASE_TAG }}
+            ghcr.io/${{ github.repository_owner }}/${{ vars.IMAGE_NAME }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
